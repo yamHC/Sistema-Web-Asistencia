@@ -1,0 +1,32 @@
+# Archivos de configuración sensibles con credenciales
+includes/db.php
+
+# Archivos de datos sensibles
+justificaciones.json
+
+# Archivos subidos por usuarios (pueden contener datos personales)
+Empleado/uploads/
+uploads/
+
+# Dependencias de Composer (se pueden reinstalar con composer install)
+vendor/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de log y temporales
+*.log
+*.tmp
+*.temp
+
+# Variables de entorno
+.env
+.env.local
